@@ -1,0 +1,340 @@
+body {
+  background-color: black;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#language {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+}
+
+nav {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav li {
+  list-style-type: none;
+}
+nav a {
+  color: black;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  align-items: center;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #f2f2f2;
+  background-color: black;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: red;
+}
+tr:nth-child(odd) {
+  background-color: black;
+}
+
+th {
+  background-color: red;
+  color: white;
+}
+header {
+  background-image: url(./assets/images/img/qHsvjE.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: 0%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  background-color: black;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+.id {
+  color: white;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  padding: 1%;
+  margin-top: 100px;
+  box-sizing: border-box;
+  border-color: white;
+  border-radius: 10px;
+}
+
+img,
+a {
+  width: 100%;
+  height: 100%;
+}
+img {
+  object-fit: cover;
+}
+table {
+  position: relative;
+  animation: bounce 1s infinite;
+  margin-top: 200px;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+h2 {
+  margin-top: 200px;
+  color: blue;
+}
+video {
+  margin-top: 200px;
+}
+
+
+.slideshow {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  width: 60%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 200px;
+  align-items: center;
+  background-size: cover;
+  padding: 50px;
+  margin-left: 30%;
+}
+.pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 15s infinite;
+  animation: fade 13s infinite;
+}
+#pic1 {
+  animation-delay: 0s;
+  background-image: url("./assets/images/img/Caucasian-female-engineer-Women-in-Renewable-Energy-A-Long-Road-Ahead.jpg");
+}
+#pic2 {
+  background-image: url("./assets/images/img/Travaux-groupe-scolaire-du-Petit-Lac-Calas-©petillot-11-1536x1025.jpg");
+  animation-delay: 2s;
+}
+#pic3 {
+  background-image: url("./assets/images/img/Solararbeiter_YAYImages.jpg");
+  animation-delay: 4s;
+}
+#pic4 {
+  background-image: url("./assets/images/img/5_Ways_Businesses_Can_Tap_Into_Sustainable_Energy.png");
+  animation-delay: 6s;
+}
+#pic5 {
+  background-image: url("./assets/images/img/7232435831d6c222cbfc1828185dd17e.jpg");
+  animation-delay: 8s;
+}
+#pic6 {
+  background-image: url("./assets/images/img/renewable-energy-jobs.webp");
+  animation-delay: 9s;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.newdiv {
+  width: 25%;
+  height: 8%;
+  border-radius: 50%;
+}
+.newdiv2 {
+  margin-top: 100px;
+}
+li {
+  color: beige;
+}
+h3 {
+  color: blue;
+  margin-top: 200px;
+}
+.workers {
+  display: flex;
+  align-items: center;
+}
+.workersimg {
+  max-width: 50%;
+  margin-right: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  width: 300px;
+  height: 40vh;
+  margin-left: 50px;
+  margin-top: 100px;
+  color: blue;
+}
+.note {
+  max-width: 40%;
+  color: White ;
+}
+
+.newone {
+  margin-top: 50px;
+}
+
+#pic7 {
+  background-image: url("./assets/images/img/Enviroearth_Malawi_PV-SOLAR.png");
+  animation-delay: 0s;
+}
+#pic8 {
+  background-image: url("./assets/images/img/Dominica-Students-with-Solar-Lamps-copy.jpg");
+  animation-delay: 3s;
+}
+#pic9 {
+  background-image: url("./assets/images/img/happy-LBF-kids-small.png");
+  animation-delay: 5s;
+}
+#pic10 {
+  background-image: url("./assets/images/img/gardu-induk-pln-di-kawasan-industri-terpadu-wilmar.jpg");
+  animation-delay: 7s;
+}
+#pic11 {
+  background-image: url("./assets/images/img/FonFoVSXoAM6reZ.jpg");
+  animation-delay: 8s;
+}
+#pic12 {
+  background-image: url("./assets/images/img/African-energy-Week-1024x538.jpeg");
+  animation-delay: 9s;
+}
+.pict {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  -webkit-animation: fade 10s infinite;
+  animation: fade 10s infinite;
+}
+.slide2 {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  width: 60%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+  align-items: center;
+  background-size: cover;
+  padding: 50px;
+  margin-left: 30%;
+}
+footer {
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
